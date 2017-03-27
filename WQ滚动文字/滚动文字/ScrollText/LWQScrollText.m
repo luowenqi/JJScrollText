@@ -1,10 +1,11 @@
-//
-//  ORCycleLabel.m
-//  NewProduct
-//
-//  Created by 欧阳荣 on 2017/3/10.
-//  Copyright © 2017年 欧阳荣. All rights reserved.
-//
+
+
+
+
+
+
+
+
 
 #import "LWQScrollText.h"
 
