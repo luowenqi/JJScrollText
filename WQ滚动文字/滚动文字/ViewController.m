@@ -21,12 +21,13 @@
     //创建一个滚动文字的label
     ORCycleLabel *label = [[ORCycleLabel alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 40)];
     //设置滚动文字的内容
-    label.text = @"  滚动文字,   这里的文字真的是可以进行滚动的喔  你看真的在滚动 ";
+    label.text = @"哈🙃☺点一个赞吧👍👍👍   你的赞是我的动力❤️多谢";
     //设置滚动样式
     label.style = ORTextCycleStyleAlways;  //如果不管文字长度都可以进行滚动就选这个,还有其他可以选择的样式
     //把滚动文字的lable加到视图
     [self.view addSubview:label];
     label.rate = 0.6;
+    
     
     
     /*
