@@ -1,5 +1,5 @@
 # scrollText
-传入字符串，就可以实现文字的滚动效果
+一句代码,实现滚动文字
 
 ###文字轮播
 
@@ -16,5 +16,6 @@
 >  //创建一个滚动文字的label
 ORCycleLabel *label = [[ORCycleLabel alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 40)];
 
+>  //传入文字
 label.text = @"  滚动文字,   这里的文字真的是可以进行滚动的喔  你看真的在滚动 ";
 
