@@ -23,5 +23,6 @@ ORCycleLabel *label = [[ORCycleLabel alloc] initWithFrame:CGRectMake(0, 100, [UI
 label.text = @"  滚动文字,   这里的文字真的是可以进行滚动的喔  你看真的在滚动 ";
 ```
 
-> 图片
+### 图片
+
 ![image](https://github.com/luowenqi/scrollText/blob/master/WQ滚动文字/滚动文字/ScreenShots/Untitled2.gif)
