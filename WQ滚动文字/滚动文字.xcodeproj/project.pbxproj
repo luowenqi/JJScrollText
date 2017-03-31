@@ -13,7 +13,7 @@
 		A455B47A1E88F50B00122D96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A455B4781E88F50B00122D96 /* Main.storyboard */; };
 		A455B47C1E88F50B00122D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A455B47B1E88F50B00122D96 /* Assets.xcassets */; };
 		A455B47F1E88F50B00122D96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A455B47D1E88F50B00122D96 /* LaunchScreen.storyboard */; };
-		A455B4921E88F6D800122D96 /* LWQScrollText.m in Sources */ = {isa = PBXBuildFile; fileRef = A455B4911E88F6D800122D96 /* LWQScrollText.m */; };
+		A4FE84461E8DE344008B1B3E /* LWQScrollText.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FE84451E8DE344008B1B3E /* LWQScrollText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		A455B47B1E88F50B00122D96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A455B47E1E88F50B00122D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A455B4801E88F50B00122D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A455B4901E88F6D800122D96 /* LWQScrollText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWQScrollText.h; sourceTree = "<group>"; };
-		A455B4911E88F6D800122D96 /* LWQScrollText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWQScrollText.m; sourceTree = "<group>"; };
+		A4FE84441E8DE344008B1B3E /* LWQScrollText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWQScrollText.h; sourceTree = "<group>"; };
+		A4FE84451E8DE344008B1B3E /* LWQScrollText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWQScrollText.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		A455B46E1E88F50B00122D96 /* 滚动文字 */ = {
 			isa = PBXGroup;
 			children = (
-				A455B4861E88F57000122D96 /* ScrollText */,
+				A4FE84431E8DE344008B1B3E /* ScrollText */,
 				A455B4721E88F50B00122D96 /* AppDelegate.h */,
 				A455B4731E88F50B00122D96 /* AppDelegate.m */,
 				A455B4751E88F50B00122D96 /* ViewController.h */,
@@ -83,11 +83,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A455B4861E88F57000122D96 /* ScrollText */ = {
+		A4FE84431E8DE344008B1B3E /* ScrollText */ = {
 			isa = PBXGroup;
 			children = (
-				A455B4901E88F6D800122D96 /* LWQScrollText.h */,
-				A455B4911E88F6D800122D96 /* LWQScrollText.m */,
+				A4FE84441E8DE344008B1B3E /* LWQScrollText.h */,
+				A4FE84451E8DE344008B1B3E /* LWQScrollText.m */,
 			);
 			path = ScrollText;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			files = (
 				A455B4771E88F50B00122D96 /* ViewController.m in Sources */,
 				A455B4741E88F50B00122D96 /* AppDelegate.m in Sources */,
-				A455B4921E88F6D800122D96 /* LWQScrollText.m in Sources */,
+				A4FE84461E8DE344008B1B3E /* LWQScrollText.m in Sources */,
 				A455B4711E88F50B00122D96 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
