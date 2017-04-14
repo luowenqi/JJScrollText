@@ -5,6 +5,8 @@
 
 >使用方法  传入文字
 ```
+ORCycleLabel *label = [[ORCycleLabel alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 40)];
+
 label.text = @"  滚动文字,   这里的文字真的是可以进行滚动的喔  你看真的在滚动 ";
 ```
 
@@ -19,13 +21,6 @@ label.text = @"  滚动文字,   这里的文字真的是可以进行滚动的�
  ORTextCycleStyleDefault, //只有文字长度大于label长度滚动   默认样式
     ORTextCycleStyleAlways, //无论文字长短，一直滚动  
  
-* 代码使用  
->  //创建一个滚动文字的label
-```
-ORCycleLabel *label = [[ORCycleLabel alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 40)];
-```
-
-
 
 ### 图片
 
