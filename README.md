@@ -8,6 +8,7 @@
 label.text = @"  滚动文字,   这里的文字真的是可以进行滚动的喔  你看真的在滚动 ";
 ```
 
+> 还有图片轮播 地址https://github.com/luowenqi/JJCyclePicView
 
 * 支持自定义轮播间隔距离, 轮播速率   
 > CGFloat interval; //间隔 默认 70  
