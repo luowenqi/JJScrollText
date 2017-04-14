@@ -23,7 +23,8 @@
     label.text = @"哈🙃☺点一个赞吧👍👍👍   你的赞是我的动力❤️多谢";   //设置滚动文字的内容
     [self.view addSubview:label]; //把滚动文字的lable加到视图
     
-    ////还有图片轮播，地址https://github.com/luowenqi/JJCyclePicView
+    //本项目github地址https://github.com/luowenqi/JJScrollText
+    //还有图片轮播，github地址https://github.com/luowenqi/JJCyclePicView
     
     
     /*
