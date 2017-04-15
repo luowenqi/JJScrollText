@@ -20,7 +20,7 @@ label.text = @"  滚动文字,   这里的文字真的是可以进行滚动的�
  
 * 样式支持
  JJTextCycleStyleDefault, //只有文字长度大于label长度滚动   默认样式
-
+* 滚动方式
  JJTextCycleStyleAlways, //无论文字长短，一直滚动  
  
 
