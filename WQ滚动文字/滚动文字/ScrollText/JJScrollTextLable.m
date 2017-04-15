@@ -23,6 +23,7 @@
 
 @implementation JJScorllTextLable
 
+//初始化方法
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
