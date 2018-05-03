@@ -2,7 +2,7 @@
 一句代码,实现滚动文字
 
 ###文字轮播
-
+wenqi.last://
 >使用方法  传入文字
 ```
 JJScorllTextLable *label = [[JJScorllTextLable alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 40)];
